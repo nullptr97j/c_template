@@ -22,7 +22,7 @@ if %errorlevel% equ 0 (
 
 :: Install MinGW (GCC compiler)
 echo [2/3] Installing MinGW (GCC compiler)...
-winget install -e --id BrechtSanders.WinLibs.POSIX.UCRT.LLVM --silent
+winget install -e --id BrechtSanders.WinLibs.POSIX.UCRT --silent
 if %errorlevel% equ 0 (
     echo   ✓ MinGW installed successfully
 ) else (
