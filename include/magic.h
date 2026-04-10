@@ -3,6 +3,7 @@
 #include <stdint.h>
 #include <stddef.h>
 #include <inttypes.h>
+#include <stdio.h>
 
 typedef int8_t i8;
 typedef int16_t i16;
