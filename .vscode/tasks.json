@@ -58,7 +58,7 @@
             }
         },
         {
-            "label": "Configure Only (Linux)",
+            "label": "Build Only (Linux)",
             "type": "shell",
             "command": "./build.sh",
             "args": [],
@@ -72,7 +72,7 @@
             }
         },
         {
-            "label": "Configure Only (Windows)",
+            "label": "Build Only (Windows)",
             "type": "shell",
             "command": ".\\build.bat",
             "args": [],
