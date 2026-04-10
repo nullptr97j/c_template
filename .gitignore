@@ -7,4 +7,3 @@ out/
 .zig-cache
 zig-out
 .cache/
-*.json
