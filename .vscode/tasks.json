@@ -42,7 +42,7 @@
         {
             "label": "Build and Run (Windows)",
             "type": "shell",
-            "command": "run.bat",
+            "command": ".\\run.bat",
             "args": [],
             "group": {
                 "kind": "build",
@@ -54,7 +54,7 @@
             },
             "problemMatcher": ["$gcc"],
             "windows": {
-                "command": "run.bat"
+                "command": ".\\run.bat"
             }
         },
         {
@@ -74,7 +74,7 @@
         {
             "label": "Configure Only (Windows)",
             "type": "shell",
-            "command": "build.bat",
+            "command": ".\\build.bat",
             "args": [],
             "group": "build",
             "presentation": {
@@ -82,7 +82,7 @@
                 "panel": "dedicated"
             },
             "windows": {
-                "command": "build.bat"
+                "command": ".\\build.bat"
             }
         },
         {

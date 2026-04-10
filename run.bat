@@ -9,9 +9,7 @@ if %errorlevel% neq 0 (
 
 :: Run the executable (adjust name as needed)
 echo Running executable...
-.\build\Debug\template.exe
-:: Or if your executable doesn't have a Debug subfolder:
-:: .\build\template.exe
+.\build\template.exe
 
 if %errorlevel% neq 0 (
     echo Program exited with error code %errorlevel%
