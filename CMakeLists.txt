@@ -5,7 +5,7 @@ project(template C)
 set(CMAKE_C_STANDARD 11)
 
 if (CMAKE_BUILD_TYPE STREQUAL "Debug")
-    set(DEBUG_FLAGS "-fsanitize=address -fno-omit-frame-pointer -fno-optimize-sibling-calls")
+    set(DEBUG_FLAGS "-fno-omit-frame-pointer -fno-optimize-sibling-calls")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${DEBUG_FLAGS}")
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${DEBUG_FLAGS}")
 endif()
