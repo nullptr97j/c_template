@@ -9,7 +9,9 @@ if %errorlevel% neq 0 (
 
 :: Run the executable (adjust name as needed)
 echo Running executable...
+echo ----------------------------------------------------
 .\build\template.exe
+echo ----------------------------------------------------
 
 if %errorlevel% neq 0 (
     echo Program exited with error code %errorlevel%
