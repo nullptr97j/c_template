@@ -16,6 +16,8 @@ typedef uint32_t u32;
 typedef uint64_t u64;
 typedef size_t usize;
 
+#define println(msg) printf("%s\n", msg)
+
 #define print(msg, v) _Generic((v), \
     i8:   printf("%s: %" PRId8 "\n", msg, v), \
     i16:  printf("%s: %" PRId16 "\n", msg, v), \
